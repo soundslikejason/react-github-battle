@@ -19,10 +19,10 @@ function SelectLanguage(props) {
   );
 }
 
-// SelectLanguage.propTypes = {
-//   selectedLanguage: PropTypes.string.isRequired,
-//   onSelect: PropTypes.func.isRequired,
-// };
+SelectLanguage.propTypes = {
+  selectedLanguage: PropTypes.string.isRequired,
+  onSelect: PropTypes.func.isRequired,
+};
 
 class Popular extends React.Component {
   constructor(props) {
